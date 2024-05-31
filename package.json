@@ -4,9 +4,7 @@
   "version": "4.0.3",
   "license": "MIT",
   "private": true,
-  "engines": {
-      "node": "20.x"
-    },
+  
   "author": {
     "name": "Abhishek|Chandan",
     "url": "https://meritcode.com",
