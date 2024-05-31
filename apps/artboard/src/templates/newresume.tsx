@@ -156,6 +156,7 @@ import {
   
     return (
       <section id={section.id} className="grid grid-cols-5 border-t pt-2.5">
+
         <div>
           <h4 className="text-base font-bold">{section.name}</h4>
         </div>
@@ -278,7 +279,7 @@ import {
   
     return (
       <Section<Award> section={section} urlKey="url" summaryKey="summary">
-  
+
         {(item) => (
           <div className="pt-5 flex items-center justify-between">
             <div className="text-left">
@@ -300,6 +301,7 @@ import {
   
     return (
       <Section<Certification> section={section} urlKey="url" summaryKey="summary">
+      
         {(item) => (
           <div className="pt-5 flex items-center justify-between">
             <div className="text-left">
