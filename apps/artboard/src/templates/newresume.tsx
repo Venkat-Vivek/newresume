@@ -254,7 +254,7 @@ import {
     const section = useArtboardStore((state) => state.resume.sections.education);
   
     return (
-      <Section<Education> section={section} urlKey="url" summaryKey="summary">
+      <Section<Education> section={section} urlKey="url" summaryKey="summary" className="grid grid-rows-1">
         {(item) => (
           <div className="flex items-center justify-between">
             <div className="text-left">
@@ -280,7 +280,7 @@ import {
       <Section<Award> section={section} urlKey="url" summaryKey="summary">
   
         {(item) => (
-          <div className="flex items-center justify-between">
+          <div className="pt-5 flex items-center justify-between">
             <div className="text-left">
               <div className="font-bold">{item.title}</div>
               <div>{item.awarder}</div>
@@ -301,7 +301,7 @@ import {
     return (
       <Section<Certification> section={section} urlKey="url" summaryKey="summary">
         {(item) => (
-          <div className="flex items-center justify-between">
+          <div className="pt-5 flex items-center justify-between">
             <div className="text-left">
               <div className="font-bold">{item.name}</div>
               <div>{item.issuer}</div>
@@ -322,7 +322,7 @@ import {
     return (
       <Section<Skill> section={section} levelKey="level" keywordsKey="keywords">
         {(item) => (
-          <div className="space-y-0.5">
+          <div className="pt-5 ">
             <div className="font-bold">{item.name}</div>
             <div>{item.description}</div>
           </div>
@@ -390,7 +390,7 @@ import {
     return (
       <Section<Language> section={section} levelKey="level">
         {(item) => (
-          <div className="space-y-0.5">
+          <div className="pt-5 space-y-0.5">
             <div className="font-bold">{item.name}</div>
             <div>{item.description}</div>
           </div>
