@@ -8,6 +8,7 @@ export const templatesList = [
   "kakuna",
   "leafish",
   "nosepass",
+  "newresume",
   "onyx",
   "pikachu",
   "rhyhorn",

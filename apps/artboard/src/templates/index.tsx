@@ -8,6 +8,7 @@ import { Gengar } from "./gengar";
 import { Glalie } from "./glalie";
 import { Kakuna } from "./kakuna";
 import { Leafish } from "./leafish";
+import { Newresume } from "./newresume";
 import { Nosepass } from "./nosepass";
 import { Onyx } from "./onyx";
 import { Pikachu } from "./pikachu";
@@ -31,6 +32,8 @@ export const getTemplate = (template: Template) => {
       return Kakuna;
     case "leafish":
       return Leafish;
+    case "newresume":
+      return Newresume;
     case "nosepass":
       return Nosepass;
     case "onyx":

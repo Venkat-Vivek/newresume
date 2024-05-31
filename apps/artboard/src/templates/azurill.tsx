@@ -32,6 +32,8 @@ const Header = () => {
     <div className="flex flex-col items-center justify-center space-y-2 pb-2 text-center">
       <Picture />
 
+
+
       <div>
         <div className="text-2xl font-bold">{basics.name}</div>
         <div className="text-base">{basics.headline}</div>
